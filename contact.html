@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Noor Fatima">
+  <title>Noor Fatima | Contact</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <nav class="navbar">
+    <a class="logo" href="index.html">Noor Fatima<span></span></a>
+    <button class="menu-toggle" aria-label="Open navigation">☰</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a class="active" href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="page-header">
+    <p class="eyebrow">LET'S CONNECT</p>
+    <h1>Contact <span>Me</span></h1>
+    <p>Have a question, project idea or opportunity? Send me a message.</p>
+  </section>
+
+  <section class="section contact-layout">
+    <div class="contact-info">
+      <h2>Get in Touch</h2>
+      <p>I would be happy to hear from you. Use the form or contact me through the details below.</p>
+      <div class="contact-item"><strong>Email</strong><a href="mailto:itsnoorfatimach@gmail.com">itsnoorfatimach@gmail.com</a></div>
+      <div class="contact-item"><strong>Role</strong><span>Full Stack Development Intern</span></div>
+    </div>
+
+    <form class="contact-form" id="contactForm" novalidate>
+      <label for="name">Name</label>
+      <input id="name" name="name" type="text" placeholder="Your name" required>
+
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" placeholder="you@example.com" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="6" placeholder="Write your message..." required></textarea>
+
+      <button class="btn" type="submit">Send Message</button>
+      <p id="formMessage" class="form-message" role="status"></p>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <p>© 2026 Noor Fatima. All Rights Reserved.</p>
+  <p>Full Stack Development Intern | Auspify Technologies</p>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
